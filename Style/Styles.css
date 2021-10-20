@@ -1,0 +1,63 @@
+@import url("/Graphics/Generics/css/_Styles.css");
+ul.ruProgress
+{
+    list-style: none !important;
+    }
+    
+ul.ruProgress li
+{
+    list-style: none !important;
+    }
+
+
+@media print {
+    div#header {
+        position: static;
+    }
+
+    div#toolbar {
+        display: block;
+    }
+
+    body #toolbar #tools {
+        display: none;
+    }
+
+    div#page-box {
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .listbuttons {
+        display: none !important;
+    }
+
+    .DIV_MP_Content {
+        width: 98% !important;
+    }
+
+    body #serviceinfo > #backToCommunityHome,
+    body.UsrRole15 #serviceinfo > #backToCommunityHome {
+        display: none !important;
+    }
+
+    div#serviceinfo {
+        text-align: center;
+    }
+
+    div#serviceinfo .TitleContainer {
+        font-size: 3rem;
+        height: 4rem;
+        padding-top: 0.2em;
+    }
+
+      /*  div#serviceinfo .NameContainer {
+            padding-bottom: 0.7rem;
+        }*/
+
+    div#serviceinfo .serviceName {
+        display: none!important;
+        visibility: hidden;
+    }
+
+}

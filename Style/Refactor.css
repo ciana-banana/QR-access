@@ -1,0 +1,246 @@
+﻿    #serviceinfo > a, 
+	#serviceinfo > div {
+        display:inline-block;
+		vertical-align: middle;
+    }
+
+    #content > div.page-width:first-child {
+        background-color: #fafafa;
+        width: 100%;
+        margin: 0;
+        padding-left: auto;
+        padding-right: auto;
+        max-width: 100% !important;
+    }
+
+    #content div#serviceinfo.RigaTitolo.serviceinfo {
+	    padding-bottom: 5px !important;
+    }
+
+    #content > div.page-width:first-child div.NameContainer {
+        padding-left: 0rem;
+        padding-right: 0.5rem;
+    }
+
+    #nav-main {
+        border-top: 0px !important;
+    }
+
+
+    #nav-main,
+    #nav-main > .page-width ul li a {
+        background-color: #fff;
+    }
+
+
+	.TitleContainer .separator {
+		display:none;
+	}
+
+	.page-width #serviceinfo {
+		    min-height: 35px;
+	}
+
+    ul#top {
+        display: inline-block;
+        float: left;
+        height:0px;
+        max-height: 0px;
+    }
+
+        ul#top li.noarrow:only-child {
+            display: block;
+            position: relative;
+            top: -4rem;
+        }
+
+    #serviceinfo > a#backToCommunityHome {
+        display: none;
+		margin-right: 0.8rem;
+    }
+
+div.content .page-width #serviceinfo .NameContainer,
+div.content .page-width #serviceinfo .serviceName {
+    font-size: 1rem !important;
+}
+
+.communityName {
+	padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+
+}
+
+
+
+/*	FIX MODALI PF */
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+    margin-top: 160px;
+}
+
+.dialog.dlgeditoptions.ui-dialog-content.ui-widget-content {
+    margin-top: 5px !important;
+}
+
+
+
+/* NO MENU - Commentare per riattivare i menu, oppure modificare ID TIPO ed ID RUOLO secondo necessità!*/
+body.UsrType15 #content > div.page-width:first-child divseparator,
+body.UsrType22 #content > div.page-width:first-child divseparator,
+body.UsrRole15 #content > div.page-width:first-child divseparator {
+    display: none;
+}
+
+    body.UsrType15 ul#top li,
+    body.UsrType22 ul#top li,
+    body.UsrRole15 ul#top li {
+        display: none;
+    }
+
+    body.UsrType15 #nav-main,
+    body.UsrType15 ul#top,
+    body.UsrType22 #nav-main,
+    body.UsrType22 ul#top,
+    body.UsrRole15 #nav-main,
+    body.UsrRole15 ul#top {
+        height: 0px;
+        max-height: 0px;
+        min-height: 0px;
+        display: none;
+    }
+
+    body.UsrType15 #nav-main,
+    body.UsrType22 #nav-main,
+    body.UsrRole15 #nav-main {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 0px !important;
+    }
+
+    body.UsrType15 #content > div.page-width:first-child,
+    body.UsrType22 #content > div.page-width:first-child,
+    body.UsrRole15 #content > div.page-width:first-child {
+        border-bottom: 1px solid #eee;
+    }
+
+    body.UsrType15 #content > div.page-width:first-child div.serviceName,
+    body.UsrType22 #content > div.page-width:first-child div.serviceName,
+    body.UsrRole15 #content > div.page-width:first-child div.serviceName {
+        padding-left: 0rem;
+    }
+
+    body.UsrRole15 #serviceinfo > #backToCommunityHome {
+        margin-right:1.5rem;
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul#top li.help a {
+    background-image: none !important;
+    text-decoration: underline !important;
+}
+
+/* Fix header */
+body #branding {
+    min-height: 50px;
+    height: 80px;
+}
+
+    body #branding h1 {
+        display: none;
+    }
+
+    body #branding img.logo {
+        bottom: 0px;
+        min-height: initial;
+        max-height: initial;
+    }
+
+/*RESET_UI_2017.css*/
+/*Aggiunti per limitare gli spataccamenti...*/
+body #toolbar #tools {
+    padding-left: 0px;
+}
+
+#serviceinfo:after {
+    content: ' ';
+    display: block;
+    height: 0;
+    position: relative;
+    width: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+div#serviceinfo.RigaTitolo.serviceinfo div.tagcontainer {
+    width: 40%;
+    float: right;
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 1100px) {
+    body div#serviceinfo.RigaTitolo.serviceinfo div.tagcontainer {
+        width: 100%;
+        float: none;
+        margin-left: 12px;
+    }
+}
+
+
+
+
+/*hide internal logout*/
+.Top_Logout {
+    display: none;
+}
+
+ul.greetings .Top_Logout {
+    display: list-item;
+}
+
+/*hide external logout*/
+/*ul.greetings .Top_Logout {
+	display: none;
+} */
+
+/*hide internal help*/
+/*
+    .Top_Help { display: none; }
+    ul.greetings .Top_Help { display: list-item; }
+        */
+
+/*hide external help*/
+ul.greetings .Top_Help {
+    display: none;
+}

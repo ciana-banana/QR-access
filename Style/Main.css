@@ -1,0 +1,116 @@
+/* ---- Skin Edutech updated 21/12/2018 - Demo ---- */
+
+ /*	Nascondi menu portale*/
+body.UsrType22 #nav-main , 
+body.UsrType15 #nav-main 
+{
+display:none;
+}
+
+/*	Nascondi menu comunità*/
+
+body.UsrRole15 div#nav-main ul#top li~li
+{
+  visibility:hidden;
+}
+
+
+ /*	Fine*/
+
+
+
+ /*	Fine*/
+
+/*	Foter trasparente*/ 
+/* body #cFooter { */
+    /* margin-top: 0; */
+    /* font-size: 0.9em; */
+    /* line-height: 1.5em; */
+    /* color: #666; */
+    /* background-color: transparent !important; */
+/* }  */
+ /*	Fine*/ 
+ 
+ 
+ 
+ 
+body
+{
+	/* background-color: #fff; */
+}
+ #page-box {
+    padding-bottom: 3em;
+}
+ 
+ 
+ 
+#container
+{
+	padding-bottom: 2rem;	
+} 
+ 
+ 
+body div#cFooter div#siteinfo.page-width
+{
+	margin: auto;
+}
+
+#cFooter {
+	
+    margin-top: 0px;
+    padding-top: 0.7em;
+    font-size: 0.9em;
+    line-height: 2em !important;
+    color: #666;
+	min-height: 130px;
+}
+
+#cFooter div.chiusura div.footer_text
+{
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+
+/* Icon Color */
+div#nav-main ul#top > li > a > span.fa:first-child {
+    /* color: #666; */
+}
+
+/*admin*/
+div#nav-main ul#top > li.admin > a > span.fa:first-child {
+    color: #ffffff;
+}
+
+
+/* Menu Arrow color => Verde?!*/
+div#nav-main ul#top > li > a > span.fa:last-child {
+    /* color: #429914; */
+}
+/*admin*/
+div#nav-main ul#top > li.admin > a > span.fa:last-child {
+    color: #ffffff;
+}
+
+
+.tile.grid_3 .innerwrapper div.icon.fa,
+.tile.grid_4 .innerwrapper div.icon.fa,
+.tile.grid_6 .innerwrapper div.icon.fa
+{
+	font-size: 4rem;
+	color: #B6B6B6;
+}
+
+
+/*
+Xmas
+.fas.fa-sitemap
+{
+    color: transparent;
+    background-image: url(https://test.elearning-center.it/Graphics/OrgTree.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.9em;
+}
+*/

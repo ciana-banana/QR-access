@@ -1,0 +1,22 @@
+/* RESET DANILE */
+@import url("0_reset.css?v=20180220adv"); /*vuoto*/
+
+/*nuovo*/
+ @import url("2_NewStyle.css?v=20180220adv");     
+
+/*  Stili moduli/servizi condivisi */
+/* --------------- DA RIVEDERE!!!! ------------------- */
+/* @import url("./../../../Modules/Repository/Repository.Common.css?v=20180220adv");
+@import url("../Command/css/command.css?v=20180220adv");
+ */
+/*  Stili generici  */
+/*reset colori*/
+@import url("3_COL_Reset.css?v=20180220adv");     
+
+/*elementi comuni*/
+@import url("4_UI_Elements.css?v=20180220adv");   
+
+/* 2017 */
+/*elementi comuni: portato in Master, per tenerlo aggiornato con "code"*/
+ /*@import url("Reset_UI_2017.css?v=20180220adv");*/ 
+
